@@ -10,7 +10,7 @@ import { IShow } from '../models/IShow';
 })
 export class HeaderComponent implements OnInit {
 
-  private searchValue="girls";
+   searchValue="girls";
   constructor(private tvMazeService:TvMazeService,private router:Router) { }
 
   ngOnInit() {

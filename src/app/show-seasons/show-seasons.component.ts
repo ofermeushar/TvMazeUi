@@ -10,7 +10,7 @@ import { IEpisode } from '../models/IEpisode';
 })
 export class ShowSeasonsComponent implements OnInit {
   @Input() showId;
-  private isDataAvaible: Boolean = false;
+   isDataAvaible: Boolean = false;
   private seasons: ISeason[];
   constructor(private tvMazeService: TvMazeService) { }
 
