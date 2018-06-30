@@ -11,7 +11,7 @@ import { Show } from '../models/IShow';
 
   
 export class ShowPageComponent implements OnInit {
-  private isDataAvaible: Boolean = false;
+   isDataAvaible: Boolean = false;
   private show: Show;
   public toDisplay :String = "Seasons";
 
